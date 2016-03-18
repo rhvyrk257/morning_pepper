@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="classify-3191cc" version="0.0.0">
+<package uuid="all2-7698a2" version="0.0.0">
  <names>
-  <name lang="en_US">classify</name>
+  <name lang="en_US">all2</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
@@ -10,7 +10,7 @@
   <language>en_US</language>
  </descriptionLanguages>
  <contents>
-  <behaviorContent path="behavior_1">
+  <behaviorContent path=".">
    <userRequestable/>
    <nature>interactive</nature>
    <permissions/>

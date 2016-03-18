@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="classify" format_version="4">
+<Package name="all2" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
-        <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="." xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
         <File name="surprise3" src="behavior_1/surprise3.ogg" />
+        <File name="good" src="text/good.txt" />
+        <File name="bad" src="text/bad.txt" />
+        <File name="surprise3" src="surprise3.ogg" />
     </Resources>
     <Topics />
     <IgnoredPaths>
         <Path src=".metadata" />
+        <Path src="text/.DS_Store" />
+        <Path src=".DS_Store" />
     </IgnoredPaths>
 </Package>
